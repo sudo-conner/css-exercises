@@ -19,12 +19,12 @@ Depending on how you approach this one, you might need to revisit the `flex-shri
 
 
 ### Some of my notes
-Body is a flex container that centers its only item: modal
-    Modal is a flex container that separates its two items: icon and container
-        Icon is a flex item
-        Container is a flex item, that is not a flex container, with some elements in it: header, text, continue, and cancel
-            Header is a flex container with two items: its content and close-button
-                Header's content, some text, is a flex item
-                Close-button is a flex item
-            Text is a block-level element
-            Continue and Cancel are inline-block elements, so they go on the same line eventhough they are not being flexed
+- Body is a flex container that centers its only item: modal
+    - Modal is a flex container that separates its two items: icon and container
+        - Icon is a flex item
+        - Container is a flex item, that is not a flex container, with some elements in it: header, text, continue, and cancel
+            - Header is a flex container with two items: its content and close-button
+                - Header's content, some text, is a flex item
+                - Close-button is a flex item
+            - Text is a block-level element
+            - Continue and Cancel are inline-block elements, so they go on the same line eventhough they are not being flexed
